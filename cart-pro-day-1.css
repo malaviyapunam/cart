@@ -1,0 +1,82 @@
+
+body {
+  background-image: url(img/flat-lay-image-natural-beauty-products-including-herbs-flowers-citrus-arranged-white-background-322225685.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container,.product-card-section, .cart-section {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e2e4df;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+
+}
+h1{
+  text-align: center;
+  color:#3aa9eb;
+}
+h2{
+  text-align: center;
+  color: #82bb37;
+}
+
+input ,textarea{
+  width: 98%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #82bb37 ;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+   padding: 10px;
+  background-color: #82bb37;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 45%;
+}
+
+button:hover {
+  background-color: #66a01a;
+}
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+  /* text-align: center; */
+}
+
+
+.cart-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cart-products .card {
+  width: 250px;
+  margin: 10px;
+}
+
+button#view-cart-btn, button#back-to-products-btn {
+  margin-top: 20px;
+}
+
+.cart-view {
+  display: none;
+}
